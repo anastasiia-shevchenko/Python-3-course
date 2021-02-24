@@ -3,8 +3,8 @@ from random import randint
 
 def main():
     task_1()
-    #task_2()
-    #task_3()
+    task_2()
+    task_3()
 
 
 
@@ -65,7 +65,10 @@ def task_2():
 def task_3():
     print("Введите предложение: ")
     words = input()
-    words = words.replace(',', '').replace('.', '').replace(':', '').replace('!', '').replace('?', '').replace(';', '').replace('-', '').replace(')', '')
+    #words = words.replace(',', '').replace('.', '').replace(':', '').replace('!', '').replace('?', '').replace(';', '').replace('-', '').replace(')', '')
+    sign = ",", ".", ":","!","?",";","-","'"
+    for i in range(len(sign)):
+        words = words.replace(sign[i], "")
     words = words.split()
     letter_counts = list(map(lambda x: len(x), words))
     print("Количество букв в каждом слове: ")
