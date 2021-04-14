@@ -1,0 +1,21 @@
+[Название: Catcher in the rye
+Автор: D. D. Salinger
+Рейтинг: 5.8
+Жанр: comedyЦена: 200
+
+, Название: To Kill a Mockingbird
+Автор: Harper Lee
+Рейтинг: 9.1
+Жанр: dramaЦена: 300
+
+, Название: The Snow Queen
+Автор: G. H. Andersen
+Рейтинг: 8.3
+Жанр: novelЦена: 400
+
+, Название: Alice in Wonderland
+Автор: Lewis Carroll
+Рейтинг: 8.8
+Жанр: novelЦена: 500
+
+]
