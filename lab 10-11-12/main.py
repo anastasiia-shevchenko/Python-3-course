@@ -6,29 +6,29 @@ from my_class import SimpleGenerator
 from my_class import MenedgerFile
 
 
-
 def main():
     print("----Iterator----")
-    people = [Person("Tom", 23), Student("Bob", 20, "Harvard"), Employee("Sam", 35, "Google")]
+    pe1ople = [Person("Tom", 23), Student("Bob", 20, "Harvard"), Employee("Sam", 35, "Google")]
     iter_list = SimpleIterator(people)
 
     for person in iter_list:
         print(person)
+
     print("----Generator----")
     gener_list = SimpleGenerator(people)
     print(next(gener_list))
     for person in gener_list:
         print(person)
 
-    with MenedgerFile('employees.txt', 'w') as opened_file:
-        for i in range(0, len(employees)):
-            opened_file.write(str(employees[i].surname) + ' ' + str(employees[i].name) + '\n')
+    with MenedgerFile('empl.txt', 'w') as opened_file:
+        for i in range(0, len(people)):
+            opened_file.write(str(people[i].name) + ' ' + str(people[i].age) + '\n')
 
-    employees1 = list()
-    with MenedgerFile('employees.txt', 'r') as opened_file:
-        for i in range(0, len(employees)):
-            employees1.append(opened_file.readline()[:-1])
-            print(employees1[i])
+    people_new = list()
+    with MenedgerFile('empl.txt', 'r') as opened_file:
+        for i in range(0, len(people_new)):
+            people_new.append(opened_file.readline()[:-1])
+            print(people_new[i])
 
     # Kevin=Student("Kevin", 20, "Harvard")
     # Kevin.display_info()
