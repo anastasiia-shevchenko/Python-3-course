@@ -9,7 +9,6 @@ from matplotlib import pyplot as plt
 import argparse
 import sys
 import logging
-#RUN pip install --no-cache-dir -r library.txt
 
 
 def word_count():

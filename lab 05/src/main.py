@@ -2,12 +2,12 @@ import random
 from random import randint
 
 def main():
-    task_1()
-    task_2()
+    #task_1()
+    #task_2()
     task_3()
 
 def task_1():
-    print("Введыть речення : ")
+    print("Введіть речення : ")
     words = input()
     sign = ",", ".", ":","!","?",";","-","'"," "
     for i in range(len(sign)):

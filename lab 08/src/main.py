@@ -60,7 +60,7 @@ def task_2():
 
 def main():
     print("-----Работа с файлами-----")
-    #task_1()
+    task_1()
     task_2()
 
 if __name__ == '__main__':

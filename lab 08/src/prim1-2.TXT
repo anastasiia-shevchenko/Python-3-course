@@ -1,7 +1,7 @@
 offer job First
 offer job Second
 with kind of text to work Some
-mark? sentence with a question A
+mark sentence with? a question A
 with kind of text to work Some
 with? kind of text to work Some
 Rerrere

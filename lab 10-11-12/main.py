@@ -8,7 +8,7 @@ from my_class import MenedgerFile
 
 def main():
     print("----Iterator----")
-    pe1ople = [Person("Tom", 23), Student("Bob", 20, "Harvard"), Employee("Sam", 35, "Google")]
+    people = [Person("Tom", 23), Student("Bob", 20, "Harvard"), Employee("Sam", 35, "Google")]
     iter_list = SimpleIterator(people)
 
     for person in iter_list:

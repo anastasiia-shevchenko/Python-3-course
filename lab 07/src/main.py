@@ -67,7 +67,7 @@ def my_decorator(func):
 def my_func():
 
     probability_num=random.randint(1, 100)
-    if probability_num<80: # Вероятность правильного срабативыния функции 80%
+    if probability_num>80: # Вероятность правильного срабативыния функции 80%
         f=False
     else:
         f = True
